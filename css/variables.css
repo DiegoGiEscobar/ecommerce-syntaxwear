@@ -3,3 +3,12 @@
 :root {
   --fonte-principal: 'Ubuntu', sans-serif;
 }
+
+/* O que é o arquivo variable.css? */
+/* Este arquivo define variáveis CSS reutilizáveis que podem ser usadas em outros arquivos CSS. */
+/* Ele centraliza configurações como fontes, cores e tamanhos para manter a consistência no projeto. */
+/* Um exemplo de uso: --fonte-principal pode ser aplicado em múltiplos elementos CSS. */
+
+/* O que é :root e para que serve? */
+/* :root é um pseudo-elemento CSS que representa o elemento raiz do documento HTML. */
+/* Ele permite definir variáveis CSS globais que podem ser usadas em todo o projeto. */
