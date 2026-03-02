@@ -25,7 +25,7 @@
 
 .nav-center a,
 .nav-right a {
-  font-size: 1,25rem;
+  font-size: 1.25rem;
   color: #333333;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .nav-right img{
-  height: 1.25rem;
+  height: 20px;
 }
 
 .nav-right a:hover img{
