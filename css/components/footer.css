@@ -1,1 +1,81 @@
 /* footer.css */
+.site-footer{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer-content{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.footer-nav ul{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-nav ul ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-nav strong{
+    color: #EDEDED;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 400;
+}
+
+.footer-nav li a{
+    color: #ffffff;
+}
+
+.footer-nav li a:hover{
+    text-decoration: underline;
+}
+
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-form input{
+    border-radius: 30px;
+    color: #AAAAAA;
+    padding: 0.75rem 1.25rem;
+    width: 21.5rem;
+}
+
+.footer-social span{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.footer-social ul{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-social li a:hover img{
+    opacity: 0.7;
+}
+
+/* Aprenda a criar um footer responsivo e profissional analisando o código real do SyntaxWear. Descubra como organizar 5 colunas de links, criar seção de newsletter funcional, implementar ícones de redes sociais com efeitos, aplicar Grid e Flexbox juntos, e garantir acessibilidade completa. Técnicas de responsividade que transformam 5 colunas em 1 automaticamente.
+
+[Links e códigos da aula]
+CSS Grid Guide: https://css-tricks.com/snippets/css/complete-guide-grid/
+Flexbox Guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+CSS Filter Effects: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+Web Accessibility: https://www.w3.org/WAI/WCAG21/quickref/
+SVG Icons: https://heroicons.com/ ou https://phosphoricons.com/ */
